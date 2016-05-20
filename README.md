@@ -1,6 +1,6 @@
 # Music Recommender System Using Apache Spark and Python
 
-A recommender system using Alternating Least Squares matrix factorization technique to recommend new artists to a user based on implicit feedback
+A recommender system using Alternating Least Squares matrix factorization technique to recommend new artists to a user based on implicit feedback.
 
 ### Technology Stack:
 * Spark MLlib
@@ -18,6 +18,11 @@ sudo pip install jupyter
 tar-xzf spark-1.5.2-bin-hadoop2.6.tgz
 
 ### Instructions for running:
+```
+git clone https://github.com/gsrajadh/Music-Recommender-Using-Spark.git
+cd Music-Recommender-Using-Spark
+IPYTHON_OPTS = "notebook" $SPARK_HOME/bin/pyspark
+```
 
 
 ### Dataset:
